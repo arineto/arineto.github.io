@@ -31,6 +31,10 @@ span.tag{
     color: #fff;
 }
 
+div.tag-row{
+    margin-top: 10px;
+}
+
 span.tag-light{
     background-color: #fff;
     color: #F05F40;
@@ -57,12 +61,24 @@ textarea {
     resize: none;
 }
 
-.contact-info a{
+.contact-info a {
     color: #fff;
     cursor: pointer;
 }
 
-.align-center{
+.align-center {
     margin: 0 auto;
     float: none;
+}
+
+.timeline-body > p {
+    text-align: justify;
+}
+
+.timeline-image {
+    color: #000 !important;
+}
+
+.timeline-image-text {
+    margin-top: 65px !important;
 }
