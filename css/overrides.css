@@ -82,3 +82,17 @@ textarea {
 .timeline-image-text {
     margin-top: 65px !important;
 }
+
+.white-link {
+    color: rgba(255,255,255,.7);
+    cursor: pointer;
+}
+
+.white-link:hover {
+    color: #fff
+}
+
+.profile-img{
+    width: 150px;
+    margin: 5px 10px 0 0;
+}
