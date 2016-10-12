@@ -25,14 +25,12 @@ section.no-bottom{
 
 span.tag{
     background-color: #F05F40;
+    display: inline-block;
     margin-right: 3px;
+    margin-top: 10px;
     padding: 3px 5px;
     font-size: small;
     color: #fff;
-}
-
-div.tag-row{
-    margin-top: 10px;
 }
 
 span.tag-light{
