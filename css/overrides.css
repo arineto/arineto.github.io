@@ -114,3 +114,19 @@ textarea {
         height: 170px;
     }
 }
+
+footer {
+    background-color: #1D1D1D;
+}
+
+.footer {
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer a {
+    text-decoration: underline;
+    color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
