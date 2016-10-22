@@ -44,6 +44,11 @@
         scale: 0.3,
         distance: '0px'
     }, 300);
+    sr.reveal('.skill-line',{
+        duration: 600,
+        scale: 0.3,
+        distance: '0px'
+    }, 200);
 
     // Initialize and Configure Magnific Popup Lightbox Plugin
     $('.popup-gallery').magnificPopup({
