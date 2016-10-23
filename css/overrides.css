@@ -94,27 +94,6 @@ textarea {
     margin-right: 10px;
 }
 
-@media (min-width: 768px) {
-    .profile-img {
-        width: 120px;
-        height: 120px;
-    }
-}
-
-@media (min-width: 992px) {
-    .profile-img {
-        width: 150px;
-        height: 150px;
-    }
-}
-
-@media (min-width: 1200px) {
-    .profile-img {
-        width: 170px;
-        height: 170px;
-    }
-}
-
 footer {
     background-color: #1D1D1D;
 }
@@ -172,4 +151,35 @@ footer {
 
 .skill-line-20{
     width: 20%;
+}
+
+.top-10 {
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .profile-img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-row {
+        margin-right: 5px;
+    }
+}
+
+@media (min-width: 992px) {
+    .profile-img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .profile-img {
+        width: 170px;
+        height: 170px;
+    }
 }
